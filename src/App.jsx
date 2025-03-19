@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
 function App() {
@@ -9,9 +8,8 @@ function App() {
   return (
     <>
       <div>
-      <p className="text-red-400 font-bold mt-10">Tailwind is working.</p>
       <h1 class="text-3xl font-bold underline">
-        Hello world!
+        Hello world! 👩‍💻
       </h1>
       </div>
      
