@@ -1,6 +1,7 @@
 
 import React from "react";
 import { Skills } from './components/Skills';
+import { Certificates } from './components/Certificates';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           </h3>
         </div>
         <Skills />
+        <Certificates />
       </div>
       
     </>
