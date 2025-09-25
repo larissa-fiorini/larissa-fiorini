@@ -1,20 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
+import React from "react";
+import { Skills } from './components/Skills';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-      <p className="text-red-400 font-bold mt-10">Tailwind is working.</p>
-      <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <div className="min-h-screen bg-sky-950 flex flex-col items-center justify-center space-y-4">
+        <div>
+          <h1 className="text-3xl font-bold text-center text-white">
+            Larissa
+          </h1>
+          <h3 className="text-xl text-center text-white">
+            Software Quality Engineer
+          </h3>
+        </div>
+        <Skills />
       </div>
-     
+      
     </>
   )
 }
