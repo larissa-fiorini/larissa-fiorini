@@ -20,6 +20,9 @@ export function Certificates() {
           <div className="bg-slate-400 m-4 p-2 rounded-lg shadow-lg w-full flex items-center justify-center">
             <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="0ebeeb5d-8dbf-43c4-90cf-aa6260c8b874" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
           </div>
+          <div className="bg-slate-400 m-4 p-2 rounded-lg shadow-lg w-full flex items-center justify-center">
+            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b4ca2301-87ed-4181-8117-cd42b7efd6ef" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+          </div>
         </div>
       </div>
     </div>
