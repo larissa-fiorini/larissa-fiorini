@@ -2,8 +2,8 @@
 export function Certificates() {
   return (
     <div id="certificates" className="flex items-center gap-6 justify-center m-3 h-full sm:px-4 lg:px-8">
-      <div className="sm:w-full lg:w-1/2text-center">
-        <h1 class="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-blue-300 text-3xl lg:text-4xl font-bold leading-tight opacity-75">
+      <div className="sm:w-full lg:w-1/2 text-center">
+        <h1 class="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-blue-300 text-3xl lg:text-4xl font-bold leading-tight opacity-75 justify-center">
           Certificates
         </h1>
 
