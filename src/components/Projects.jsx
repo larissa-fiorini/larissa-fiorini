@@ -7,15 +7,15 @@ export function Projects() {
       { icon: faDocker, name: 'Docker' },
     ];
   return (
-    <div id="projects" className="flex items-center gap-6 justify-center m-3 h-full sm:px-4 lg:px-8">
-      <div className="sm:w-full text-center">
+    <div id="projects" className="flex items-center gap-6 justify-center m-3 h-full sm:px-2 lg:px-8">
+      <div className="sm:w-full lg:w-1/2 text-center">
         <h1 class="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-blue-300 text-3xl lg:text-4xl font-bold leading-tight opacity-75">
           Projects
         </h1>
         
 
         <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-6 w-full max-w-2xl mx-auto lg:flex lg:flex-row lg:items-center justify-center">
-          <div className="bg-slate-400 m-4 p-2 rounded-lg shadow-lg w-full flex items-center justify-center">
+          <div className="bg-slate-400 p-2 m-4 rounded-lg shadow-lg flex items-center justify-center">
               <div data-iframe-width="150" data-iframe-height="270">
                 <h1 className="font-bold text-2xl text-zinc-600 bg-clip-text">Test Automation Framework</h1><br/>
                 <h2>A production-ready test automation framework demonstrating modern DevOps practices for QA. </h2>
